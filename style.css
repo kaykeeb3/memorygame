@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#game-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #fff; /* Cor do texto das cartas */
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card.flipped {
+    transform: scale(1.1);
+}
+
+#win-message {
+    display: none;
+    font-size: 24px;
+    color: green;
+    margin-top: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
