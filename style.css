@@ -6,6 +6,7 @@ body {
 
 h1 {
     color: #333;
+    font-style: italic;
 }
 
 #game-board {
@@ -16,8 +17,8 @@ h1 {
 }
 
 .card {
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 160px;
     background-color: #ccc;
     margin: 10px;
     display: flex;
