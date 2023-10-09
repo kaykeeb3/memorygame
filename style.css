@@ -1,12 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     text-align: center;
+    height: 100%;
+    width: 100%;
 }
 
 h1 {
     color: #333;
     font-style: italic;
+    margin-top: 10px;
+}
+
+p {
+  margin-top: 9px;
+  
 }
 
 #game-board {
@@ -49,5 +64,5 @@ button {
     color: #fff;
     border: none;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 17px;
 }
